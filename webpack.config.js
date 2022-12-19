@@ -22,7 +22,8 @@ const config = {
     },
     plugins: [
         new HtmlWebpackPlugin({
-            template: 'index.html',
+            template: './src/index.html',
+            favicon: './src/refs/game.svg',
         }),
 
         // Add your plugins here
